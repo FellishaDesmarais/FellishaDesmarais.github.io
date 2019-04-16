@@ -85,10 +85,11 @@ font-style: normal;
    ========================================================================== */
 /* =Main */
 #intro {
-    height: 175vh;
+    height: 200vh;
     background: radial-gradient(circle, rgb(5, 5, 5) 0%,rgb(3, 3, 3) 100%);
     text-align: center;
     color: cornsilk;
+    line-height: 25pt;
 }
 svg:hover{
     fill: cornsilk;
@@ -330,4 +331,8 @@ when the project is out of frame do this */
     h3 {
         page-break-after: avoid;
     }
+
+     
+
+   
 }
