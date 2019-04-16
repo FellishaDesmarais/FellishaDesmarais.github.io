@@ -50,9 +50,8 @@ $(document).ready(function(){
     //add class to project one
     .setClassToggle(this, 'fade-in')
     .addIndicators({
-        name: 'fade scene',
+        name: 'For Your Enjoyment',
         colorTrigger: 'black',
-        colorStart: 'pink',
         colorEnd: 'black'
     })
     .addTo(controller);
