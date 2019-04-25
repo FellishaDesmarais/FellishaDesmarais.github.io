@@ -1,21 +1,33 @@
 body {
     margin: 100px;
     color: rgb(29, 32, 32);
-    background-image: url("booksWeb.jpg");
+    /* background-image: url("booksWeb.jpg"); */
+    background-color: pink;
     font-family: 'Montserrat', sans-serif;
   }
+
+
   
   .masthead {
     margin-bottom: 60px;
 
   }
 
+  .titlename {
+    font-size: 1.6em;
+  }
+
   
     h1 {
     margin: 0;
-    font-size: 1.5em;
-    text-transform: lowercase;
+    font-size: 1.1em;
+    /* text-transform: lowercase; */
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color:black;
   
   }
 
@@ -26,18 +38,8 @@ body {
     h2 {
     margin: 0;
     padding: 0;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  section h1 {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color:rgb(26, 27, 27);
-    font-family: 'Montserrat', sans-serif;
+    font-family: eskapade-fraktur, serif;
+    font-weight: 400; 
   }
   
   section h3 {
@@ -57,9 +59,6 @@ body {
     font-size: 11pt
   }
   
-  /* ul, dl {
-    margin-bottom: 10px;
-  } */
 
   li{
     font-size: 11pt
@@ -68,15 +67,18 @@ body {
   dd {
     color:rgb(22, 21, 21);
     font-family: 'Montserrat', sans-serif;
+  
   }
 
-  /* dl{
-  
-  } */
   
   time {
     margin-right: 5px;
     font-weight: lighter;
+  }
+
+  .footer {
+    font-size: 1.2em;
+    font-family: eskapade-fraktur, serif;
   }
 
   svg{
@@ -130,3 +132,4 @@ body {
         transform: translate(200px, 60px)
     }
 }
+

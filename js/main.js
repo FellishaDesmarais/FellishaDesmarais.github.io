@@ -52,11 +52,11 @@ $(document).ready(function(){
 
     //add class to project one
     .setClassToggle(this, 'fade-in')
-    .addIndicators({
-        name: 'project',
-        colorTrigger: 'black',
-        colorEnd: 'black'
-    })
+    // .addIndicators({
+    //     name: 'project',
+    //     colorTrigger: 'black',
+    //     colorEnd: 'black'
+    // })
     .addTo(controller);
 	
     });
