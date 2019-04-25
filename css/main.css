@@ -26,6 +26,7 @@ a[href]
     font-weight: 400;
     font-style: normal;
     color: pink;
+    text-decoration: none;
 }
 
 h2{

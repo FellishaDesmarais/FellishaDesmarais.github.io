@@ -1,0 +1,132 @@
+body {
+    margin: 100px;
+    color: rgb(29, 32, 32);
+    background-image: url("booksWeb.jpg");
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .masthead {
+    margin-bottom: 60px;
+
+  }
+
+  
+    h1 {
+    margin: 0;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    color: black;
+  
+  }
+
+   image{
+     size: 10%;
+   }
+  
+    h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  section h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color:rgb(26, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  section h3 {
+    color: #3d3d3d;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+  ul, dl, h3 {
+    margin-left: 50px;
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    font-size: 11pt
+  }
+  
+  /* ul, dl {
+    margin-bottom: 10px;
+  } */
+
+  li{
+    font-size: 11pt
+  }
+  
+  dd {
+    color:rgb(22, 21, 21);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* dl{
+  
+  } */
+  
+  time {
+    margin-right: 5px;
+    font-weight: lighter;
+  }
+
+  svg{
+    width: 75%;
+    fill: pink;
+    /*where you name it and assign it to a tag*/
+    animation: color  10s linear infinite;
+    -webkit-animation: color 10s linear infinite;
+}
+
+/*--how you build your animation this is a transition of color over 10 seconds*/
+@keyframes color{
+    0% {
+        fill:rgb(252, 200, 200);
+        opacity: 1;
+    }
+    25% {
+        fill: #a2b8da;
+    }
+    75%{
+        fill: rgb(248, 157, 21);
+        opacity: 1;
+    }
+    90%{
+        fill: pink;
+    }
+}
+@keyframes opacity {
+    0%{
+        opacity: 1;
+    }
+     25%{
+         opacity: 0;
+         transform: scale(2);
+     }
+     75%{
+         opacity: .5;
+     }
+     90%{
+         opacity: 0;
+     }
+}
+@keyframes move{
+    0%{
+        transform: translate(200px, 60px)
+        }
+    }
+
+@keyframes mixbag {
+    0%{
+        transform: translate(200px, 60px)
+    }
+}
