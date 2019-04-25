@@ -15,6 +15,29 @@ html {
 
 h1{
     font-size: 3.5em;
+    font-family: eskapade-fraktur, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+a[href]
+{
+    font-family: eskapade, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: pink;
+}
+
+h2{
+    font-family: eskapade-fraktur, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+p{
+    font-family: eskapade, serif;
+font-weight: 400;
+font-style: normal;
 }
 
 ::-moz-selection {
@@ -68,12 +91,12 @@ textarea {
    ========================================================================== */
 
 
-body {
+ body {
     /* font: 16px/1.5 Helvetica, Helvetica Neue, Arial; */
-font-family: eskapade-fraktur, serif;
-font-weight: 400;
+/* font-family: eskapade-fraktur, serif;
+font-weight: 400;*/
 font-style: normal;
-}
+}  
 
 .wrapper {
     width: 1000%;
@@ -160,6 +183,9 @@ when the project is out of frame do this */
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
     background-color: #06060d; 
+    font-family: eskapade-fraktur, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .footer-container .wrapper {
     width: 80%;
