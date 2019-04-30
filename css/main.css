@@ -20,7 +20,8 @@ font-weight: 400;
 font-style: normal;
 }
 
-a[href]
+/* a[href] */
+a:link
 {
     font-family: eskapade, serif;
     font-weight: 400;
@@ -28,6 +29,23 @@ a[href]
     color: pink;
     text-decoration: none;
 }
+a:visited{
+    font-family: eskapade, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red ;
+    text-decoration: none;
+
+}
+
+a:hover{
+    font-family: eskapade, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:antiquewhite;
+    text-decoration: none;
+}
+
 
 h2{
     font-family: eskapade-fraktur, serif;
@@ -306,11 +324,7 @@ when the project is out of frame do this */
         text-shadow: none !important;
     }
 
-    a,
-    a:visited {
-    
-        
-    }
+
 
     a[href]:after {
         content: " (" attr(href) ")";
