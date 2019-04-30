@@ -20,7 +20,7 @@ font-weight: 400;
 font-style: normal;
 }
 
-/* a[href] */
+/* styling my links to be color coated when visited and on hover */
 a:link
 {
     font-family: eskapade, serif;
@@ -197,7 +197,7 @@ when the project is out of frame do this */
     background-color:#FFF;
 }
 /* =Footer */
-.footer-container {
+/* .footer-container {
     text-align: center;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
@@ -205,6 +205,8 @@ when the project is out of frame do this */
     font-family: eskapade-fraktur, serif;
     font-weight: 400;
     font-style: normal;
+
+    position: fixed;
 }
 .footer-container .wrapper {
     width: 80%;
@@ -218,6 +220,40 @@ when the project is out of frame do this */
 }
 .footer-container a {
     color: rgba(255, 255, 255, 0.5); 
+} */
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    text-align: center;
+  }
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #06060d; 
+    font-family: eskapade-fraktur, serif;
+    font-weight: 200;
+    font-style: normal;
+    position: fixed;
+}
+.footer.wrapper {
+    width: 80%;
+    max-width: none;
+    margin: 5%; 
+}
+.footer .h3 {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: normal; 
+}
+.footer a {
+    color:pink;
 }
 
 
@@ -376,12 +412,12 @@ when the project is out of frame do this */
         page-break-after: avoid;
     }
 }
-.footer {
+/* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color:black;
+    color: ;
     text-align: center;
-  }
+  } */
