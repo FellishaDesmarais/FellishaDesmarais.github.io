@@ -5,7 +5,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: black ;
 }
 
 html {
@@ -14,8 +14,8 @@ html {
 }
 
 h1{
-    font-size: 3.5em;
-    font-family: eskapade-fraktur, serif;
+    font-size: 2.5em;
+    font-family:de-walpergens-pica-sc;
 font-weight: 400;
 font-style: normal;
 }
@@ -23,23 +23,23 @@ font-style: normal;
 /* styling my links to be color coated when visited and on hover */
 a:link
 {
-    font-family: eskapade, serif;
+    font-family: de-walpergens-pica, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: pink;
+    color: antiquewhite;
     text-decoration: none;
 }
 a:visited{
-    font-family: eskapade, serif;
+    font-family: de-walpergens-pica, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: red ;
+    color: black ;
     text-decoration: none;
 
 }
 
 a:hover{
-    font-family: eskapade, serif;
+    font-family: de-walpergens-pica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color:antiquewhite;
@@ -48,13 +48,13 @@ a:hover{
 
 
 h2{
-    font-family: eskapade-fraktur, serif;
+    font-family: de-walpergens-pica, sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
 p{
-    font-family: eskapade, serif;
+    font-family: de-walpergens-pica, sans-serif;
 font-weight: 400;
 font-style: normal;
 }
@@ -128,9 +128,9 @@ font-style: normal;
 /* =Main */
 #intro {
     height: 150vh;
-    background: black;
+    background: white;
     text-align: center;
-    color: cornsilk;
+    color: black;
     line-height: 30pt;
 }
 svg:hover{
@@ -168,28 +168,28 @@ when the project is out of frame do this */
 .project p {
     max-width: 300px;
     margin: 0 auto;
-    color:rgb(20, 17, 20);
+    color: black (20, 17, 20);
 }
 #project01 h2 {
-    color:rgb(19, 46, 19);
+    color:black (19, 46, 19);
 }
 #project02 h2 {
-    color: rgb(19, 46, 19);
+    color: black (19, 46, 19);
 }
 #project03 h2 {
-    color: rgb(19, 46, 19)nk;
+    color: black (19, 46, 19)nk;
 }
 
 #project04 h2 {
-    color: rgb(19, 46, 19);
+    color: black (19, 46, 19);
 }
 
 #project05 h2 {
-    color: rgb(19, 46, 19);
+    color: black (19, 46, 19);
 }
 
 #project06 h2 {
-    color: rgb(19, 46, 19);
+    color: black (19, 46, 19);
 }
 
 #main {
@@ -235,9 +235,9 @@ when the project is out of frame do this */
 .footer {
     text-align: center;
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.5);
+    color: linen;
     background-color: #06060d; 
-    font-family: eskapade-fraktur, serif;
+    font-family: de-walpergens-pica, sans-serif;
     font-weight: 200;
     font-style: normal;
     position: fixed;
@@ -253,7 +253,7 @@ when the project is out of frame do this */
     font-weight: normal; 
 }
 .footer a {
-    color:pink;
+    color:linen;
 }
 
 
@@ -379,7 +379,7 @@ when the project is out of frame do this */
 
     pre,
     blockquote {
-        border: 1px solid #999;
+        border: 1px solid whitesmoke;
         page-break-inside: avoid;
     }
 
