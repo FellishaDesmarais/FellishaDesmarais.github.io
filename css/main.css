@@ -26,7 +26,7 @@ a:link
     font-family: de-walpergens-pica, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: antiquewhite;
+    color: black;
     text-decoration: none;
 }
 a:visited{
@@ -42,7 +42,7 @@ a:hover{
     font-family: de-walpergens-pica, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color:antiquewhite;
+    color: antiquewhite;
     text-decoration: none;
 }
 
@@ -237,7 +237,7 @@ when the project is out of frame do this */
     font-size: 12px;
     color: linen;
     background-color: #06060d; 
-    font-family: de-walpergens-pica, sans-serif;
+    font-family: mrs-eaves-roman-lining, sans-serif;
     font-weight: 200;
     font-style: normal;
     position: fixed;
