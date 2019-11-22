@@ -143,6 +143,12 @@ svg:hover{
     transform: translate(-50%, -50%);
 }
 
+/* where I can change size of intro image just remove if i want it back to normal*/
+
+#intro img {
+    height: 45%;
+}
+
 /* where all the heavy lifting is done
 when the project is out of frame do this */
 .project {
